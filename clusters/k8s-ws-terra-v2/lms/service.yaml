@@ -4,7 +4,7 @@ metadata:
   name: lms-static-svc 
   namespace: lms
 spec:
-  type: LoadBalancer
+  type: ClusterIp
   selector:
     app: lms-static
   ports:
